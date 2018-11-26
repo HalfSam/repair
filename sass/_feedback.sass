@@ -1,0 +1,54 @@
+.feedback
+    padding: 94px 0
+    background-image: url('../repair/img/feedback-bg.jpg')   
+    background-position: left 700px  center 
+    background-repeat: no-repeat 
+    background-size: contain
+    position: relative
+    z-index: 1
+    &:before
+        content: ''
+        left: 0
+        top: 0
+        width: 60%
+        height: 100%
+        background-color: #fff
+        position: absolute
+        z-index: -1
+    &-call
+        display: flex
+        justify-content: space-between
+        &__item
+            display: flex
+            &__text 
+                align-items: center
+        &__img
+            min-width: 40px
+            height: 40px
+            border-radius: 50%
+            border: 2px solid #cccccc
+            margin-right: 30px
+            background-size: 16px
+            background-repeat: no-repeat
+            background-position: center
+            background-image: url('../repair/img/phone.png')     
+.form
+    max-width: 575px
+    &__title
+        font-size: 24px
+        +bold
+        line-height: 35px
+        margin-bottom: 45px
+    &__subtitle
+        margin-bottom: 50px
+        display: block
+    &__input
+        width: 270px
+        margin-bottom: 30px
+        &:first-child
+            margin-right: 30px
+    &__button
+        padding: 28px
+        display: block
+        width: 100%
+        margin-bottom: 31px

@@ -1,6 +1,10 @@
 @media (max-width: 1199px)
     .container
         width: 970px
+    .slider
+        &__item
+            img
+                max-width: 95%
     .main
         &-text
             &__title
@@ -21,3 +25,14 @@
             margin: auto
             &__title
                 text-align: center
+@media (max-width: 492px)
+    .header
+        &-wrap
+            display: flex
+            flex-direction: column
+            flex-wrap: wrap
+        &-logo
+            min-width: 300px
+            margin: auto
+
+

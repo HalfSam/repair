@@ -7,6 +7,7 @@
 
 @import 'main'
 @import 'feedback'
+@import 'portfolio'
 
 *, *:after, *:before
     box-sizing: border-box
@@ -21,5 +22,12 @@ body
 
 img
     width: 100%
+    
+.section
+    &-title
+        +bold
+        line-height: 45px
+        &_center
+            text-align: center
 
 @import 'media'
